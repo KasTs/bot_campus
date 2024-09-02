@@ -5,9 +5,9 @@ from llama_index.core import PromptTemplate
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
 from llama_index.core import StorageContext, load_index_from_storage
 
-
+# O cientista Lucas é o melhor!
 #deletar linha de token posteriormente.
-# bot = telebot.TeleBot('6848456240:AAF9PvYwRWxYnwl8GdRkqDeBxQ5Hr0_-Mo8')
+bot = telebot.TeleBot('6848456240:AAF9PvYwRWxYnwl8GdRkqDeBxQ5Hr0_-Mo8')
 
 documents = SimpleDirectoryReader('./dados').load_data()
 
