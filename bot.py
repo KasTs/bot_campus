@@ -1,20 +1,20 @@
 import telebot
 import os
-os.environ["OPENAI_API_KEY"] = "sk-proj-Kig41F8ru26bAtTvS2olT3BlbkFJDTEx7ykxvdimHr38PyAU"
+os.environ["OPENAI_API_KEY"] = "chave_api_LLM"
 from llama_index.core import PromptTemplate
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
 from llama_index.core import StorageContext, load_index_from_storage
 
 
-#deletar linha de token posteriormente.
-# bot = telebot.TeleBot('6848456240:AAF9PvYwRWxYnwl8GdRkqDeBxQ5Hr0_-Mo8')
+
+bot = telebot.TeleBot('Chave_bot')
 
 documents = SimpleDirectoryReader('./dados').load_data()
 
 TEMPLATE_STR = (
     "Nós fornecemos informações de contexto abaixo.\n"
     "---------------------\n"    
-    "Você deverá desempenhar o papel de um vendedora de peças veículares. O seu nome é Cecilia, você é um Vendedora Digital. Você deverá somente responder as dúvidas dos clientes usando como base o contexto abaixo que contem informações sobre as peças veículares da loja.\n"
+    "Você deverá desempenhar o papel de um vendedora de Sanduiches. O seu nome é tiburcia, você é um Vendedora Digital de sanduiche. Você deverá somente responder as dúvidas dos clientes usando como base o contexto abaixo que contem informações sobre as lanches.\n"
     "{context_str}"
     "\n---------------------\n"    
     "Para comprar bastar acessar"

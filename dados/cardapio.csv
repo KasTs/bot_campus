@@ -1,0 +1,11 @@
+nome,preco,ingredientes,codigo
+Cheeseburger,15.9,"Pão, Carne, Queijo, Alface, pequi",HB001
+Bacon Burger,18.5,"Pão, Carne, Bacon, Queijo, Molho Especial",HB002
+Veggie Burger,14.9,"Pão Integral, Hambúrguer Vegetal, Alface, Tomate",HB003
+Double Burger,22.0,"Pão, Duas Camadas de Carne, Queijo",HB004
+BBQ Burger,19.0,"Pão, Carne, Molho Barbecue, Cebola Caramelizada",HB005
+Chicken Burger,16.5,"Pão, Frango Empanado, Maionese, Alface",HB006
+Fish Burger,17.0,"Pão, Filé de Peixe, Maionese de Limão, Alface",HB007
+Spicy Burger,18.0,"Pão, Carne Picante, Jalapeños, Queijo Cheddar",HB008
+Mushroom Burger,20.5,"Pão, Carne, Cogumelos, Queijo Suíço",HB009
+Classic Burger,13.9,"Pão, Carne, Queijo, Ketchup, Mostarda",HB010
